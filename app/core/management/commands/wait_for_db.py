@@ -7,6 +7,7 @@ from django.core.management import BaseCommand
 from django.db import OperationalError
 from psycopg2 import OperationalError as Psycop2Error
 
+
 class Command(BaseCommand):
     """Django Command to wait for db"""
 
